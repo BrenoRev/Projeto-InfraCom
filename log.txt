@@ -1,0 +1,83 @@
+
+----------
+Server 3 listening on 3
+----------
+Server 2 listening on 2
+----------
+Server 1 listening on 1
+----------
+Server 4 listening on 4
+----------
+Server 5 listening on 5
+----------
+Server 6 listening on 6
+----------
+Sent from Server 3 to server 4: 3-Hello World
+----------
+[2] Message received from server 1: Hello World
+----------
+[3] Message received from server 2: Hello World
+----------
+[4] Message received from server 3: Hello World
+----------
+Sent from Server 2 to server 3: 2-Hello World
+----------
+[5] Message received from server 4: Hello World
+----------
+Received valid message from 1: Hello World
+----------
+Sent from Server 3 to server 2: 3-Hello World
+----------
+[6] Message received from server 5: Hello World
+----------
+Sent from Server 6 to server 1: 6-Hello World
+----------
+Sent from Server 5 to server 6: 5-Hello World
+----------
+Received valid message from 2: Hello World
+----------
+Received valid message from 4: Hello World
+----------
+[2] Message received from server 3: Hello World
+----------
+Received valid message from 5: Hello World
+----------
+Sent from Server 1 to server 2: 1-Hello World
+----------
+[1] Message received from server 6: Hello World
+----------
+[5] Message received from server 6: Hello World
+----------
+Sent from Server 4 to server 5: 4-Hello World
+----------
+Sent from Server 6 to server 5: 6-Hello World
+----------
+Received valid message from 6: Hello World
+----------
+Received valid message from 3: Hello World
+----------
+Sent from Server 5 to server 4: 5-Hello World
+----------
+[3] Message received from server 4: Hello World
+----------
+Received valid message from 6: Hello World
+----------
+Sent from Server 1 to server 6: 1-Hello World
+----------
+[1] Message received from server 2: Hello World
+----------
+Sent from Server 4 to server 3: 4-Hello World
+----------
+[6] Message received from server 1: Hello World
+----------
+Received valid message from 3: Hello World
+----------
+Received valid message from 2: Hello World
+----------
+Received valid message from 4: Hello World
+----------
+[4] Message received from server 5: Hello World
+----------
+Received valid message from 1: Hello World
+----------
+Received valid message from 5: Hello World
