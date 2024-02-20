@@ -1,83 +1,353 @@
 
 ----------
-Server 3 listening on 3
+[Broadcaster] ('127.0.0.7', 10311) listening
 ----------
-Server 2 listening on 2
+[Server 1]: Server 1 listening on 127.0.0.1:10311
 ----------
-Server 1 listening on 1
+[Server 2]: Server 2 listening on 127.0.0.2:10311
 ----------
-Server 4 listening on 4
+[Server 3]: Server 3 listening on 127.0.0.3:10311
 ----------
-Server 5 listening on 5
+[Server 4]: Server 4 listening on 127.0.0.4:10311
 ----------
-Server 6 listening on 6
+[Server 5]: Server 5 listening on 127.0.0.5:10311
 ----------
-Sent from Server 3 to server 4: 3-Hello World
+[Server 6]: Server 6 listening on 127.0.0.6:10311
 ----------
-[2] Message received from server 1: Hello World
+[Server 1]: Sent to broadcaster: 1-Mensagem broadcaster from server 1om server 1
 ----------
-[3] Message received from server 2: Hello World
+[Broadcaster] Sending message to 127.0.0.1
 ----------
-[4] Message received from server 3: Hello World
+[Broadcaster] Sending message to 127.0.0.2
 ----------
-Sent from Server 2 to server 3: 2-Hello World
+[Server 2]: Sent to broadcaster: 2-Mensagem broadcaster from server 2
 ----------
-[5] Message received from server 4: Hello World
+[Broadcaster] Sending message to 127.0.0.3
 ----------
-Received valid message from 1: Hello World
+[Server 1]: 1: Received broadcast message: Mensagem broadcaster from server 1
 ----------
-Sent from Server 3 to server 2: 3-Hello World
+[Server 3]: Sent to broadcaster: 3-Mensagem broadcaster from server 3
 ----------
-[6] Message received from server 5: Hello World
+[Server 1]: [Dijsktra] Path from 1 to 5: [6, 5]
 ----------
-Sent from Server 6 to server 1: 6-Hello World
+[Broadcaster] Sending message to 127.0.0.4
 ----------
-Sent from Server 5 to server 6: 5-Hello World
+[Server 5]: Sent to broadcaster: 5-Mensagem broadcaster from server 5
 ----------
-Received valid message from 2: Hello World
+[Server 4]: Sent to broadcaster: 4-Mensagem broadcaster from server 4
 ----------
-Received valid message from 4: Hello World
+[Server 3]: 3: Received broadcast message: Mensagem broadcaster from server 1
 ----------
-[2] Message received from server 3: Hello World
+[Server 2]: [Dijsktra] Path from 2 to 3: [3]
 ----------
-Received valid message from 5: Hello World
+[Server 2]: 2: Received broadcast message: Mensagem broadcaster from server 1
 ----------
-Sent from Server 1 to server 2: 1-Hello World
+[Broadcaster] Sending message to 127.0.0.5
 ----------
-[1] Message received from server 6: Hello World
+[Server 3]: [Dijsktra] Path from 3 to 3: []
 ----------
-[5] Message received from server 6: Hello World
+[Server 4]: 4: Received broadcast message: Mensagem broadcaster from server 1
 ----------
-Sent from Server 4 to server 5: 4-Hello World
+[Broadcaster] Sending message to 127.0.0.6
 ----------
-Sent from Server 6 to server 5: 6-Hello World
+[Server 5]: [Dijsktra] Path from 5 to 3: [4, 3]adcaster from server 6
 ----------
-Received valid message from 6: Hello World
+[Broadcaster] Message received from server 2: Mensagem broadcaster from server 2
 ----------
-Received valid message from 3: Hello World
+[Server 3]: Message reached destination: Mensagem through path 3 to 3
 ----------
-Sent from Server 5 to server 4: 5-Hello World
+[Broadcaster] Sending message to 127.0.0.1
 ----------
-[3] Message received from server 4: Hello World
+[Server 1]: Sent from Server 1 to server 6: [6, 5]/1-Mensagem hello world do 1 pro 5
 ----------
-Received valid message from 6: Hello World
+[Server 5]: 5: Received broadcast message: Mensagem broadcaster from server 1
 ----------
-Sent from Server 1 to server 6: 1-Hello World
+[Server 2]: Sent from Server 2 to server 3: [3]/2-Mensagem through path 2 to 3
 ----------
-[1] Message received from server 2: Hello World
+[Server 3]: Message reached destination: Mensagem through path 2 to 3
 ----------
-Sent from Server 4 to server 3: 4-Hello World
+[Broadcaster] Sending message to 127.0.0.2
 ----------
-[6] Message received from server 1: Hello World
+[Broadcaster] Sending message to 127.0.0.3
 ----------
-Received valid message from 3: Hello World
+[Broadcaster] Sending message to 127.0.0.4
 ----------
-Received valid message from 2: Hello World
+[Server 1]: 1: Received broadcast message: Mensagem broadcaster from server 2
 ----------
-Received valid message from 4: Hello World
+[Server 6]: Sent from Server 6 to server 5: [5]/6-Mensagem hello world do 1 pro 5
 ----------
-[4] Message received from server 5: Hello World
+[Server 3]: Message received from server 2: Mensagem through path 2 to 3
 ----------
-Received valid message from 1: Hello World
+[Broadcaster] Sending message to 127.0.0.5
 ----------
-Received valid message from 5: Hello World
+[Server 4]: Message received from server 3: Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 3: [1, 2, 3]
+----------
+[Broadcaster] Sending message to 127.0.0.6
+----------
+[Server 2]: 2: Received broadcast message: Mensagem broadcaster from server 2
+----------
+[Server 5]: Message reached destination: Mensagem hello world do 1 pro 5
+----------
+[Server 2]: Sent from Server 2 to server 3: 2-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 4: 3-Hello Worldoadcaster from server 3
+----------
+[Server 4]: Sent from Server 4 to server 3: [3]/4-Mensagem through path 4 to 3
+----------
+[Server 5]: Message received from server 6: Mensagem hello world do 1 pro 5
+----------
+[Server 5]: Sent from Server 5 to server 4: [4, 3]/5-Mensagem through path 5 to 3
+----------
+[Broadcaster] Sending message to 127.0.0.1
+----------
+[Server 4]: Received valid message from 3: Hello World
+----------
+[Server 3]: Received valid message from 2: Mensagem through path 2 to 3
+----------
+[Server 1]: [Dijsktra] Path from 1 to 3: [2, 3]
+----------
+[Broadcaster] Sending message to 127.0.0.2
+----------
+[Broadcaster] Sending message to 127.0.0.3: Mensagem hello world do 1 pro 5
+----------
+[Server 5]: Received valid message from 6: Mensagem hello world do 1 pro 5
+----------
+[Server 3]: Sent from Server 3 to server 2: 3-Hello World
+----------
+[Broadcaster] Sending message to 127.0.0.4
+----------
+[Server 2]: 2: Received broadcast message: Mensagem broadcaster from server 3
+----------
+[Server 2]: Sent from Server 2 to server 1: 2-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: 4-Hello World
+----------
+[Broadcaster] Sending message to 127.0.0.5
+----------
+[Server 6]: Received valid message from 1: Mensagem hello world do 1 pro 5
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2, 3]/6-Mensagem through path 6 to 3
+----------
+[Broadcaster] Sending message to 127.0.0.6
+----------
+[Server 5]: 5: Received broadcast message: Mensagem broadcaster from server 2
+----------
+[Server 5]: Sent from Server 5 to server 6: 5-Hello World
+----------
+[Server 3]: 3: Received broadcast message: Mensagem broadcaster from server 2
+----------
+[Broadcaster] Message received from server 4: Mensagem broadcaster from server 4
+----------
+[Server 6]: 6: Received broadcast message: Mensagem broadcaster from server 1to 3
+----------
+[Broadcaster] Sending message to 127.0.0.1
+----------
+[Server 1]: Sent from Server 1 to server 2: [2, 3]/1-Mensagem through path 6 to 3
+----------
+[Server 5]: Message received from server 4: Hello World
+----------
+[Broadcaster] Sending message to 127.0.0.2
+----------
+[Server 3]: Sent from Server 3 to server 1: 3-Hello World
+----------
+[Broadcaster] Sending message to 127.0.0.3
+----------
+[Server 3]: Message reached destination: Mensagem through path 4 to 3
+----------
+[Server 2]: Sent from Server 2 to server 1: 2-Hello World
+----------
+[Server 2]: Message received from server 3: Hello Worldld
+----------
+[Broadcaster] Sending message to 127.0.0.4
+----------
+[Server 1]: Message received from server 6: Mensagem through path 6 to 3
+----------
+[Server 4]: Message received from server 5: Mensagem through path 5 to 3
+----------
+[Broadcaster] Sending message to 127.0.0.5
+----------
+[Server 3]: Message received from server 4: Mensagem through path 4 to 3
+----------
+[Server 4]: Sent from Server 4 to server 3: 4-Hello World
+----------
+[Server 6]: 6: Received broadcast message: Mensagem broadcaster from server 2
+----------
+[Server 1]: Sent from Server 1 to server 2: 1-Hello World
+----------
+[Broadcaster] Sending message to 127.0.0.6
+----------
+[Server 6]: Sent from Server 6 to server 1: 6-Hello World
+----------
+[Broadcaster] Message received from server 5: Mensagem broadcaster from server 5
+----------
+[Server 2]: Received valid message from 3: Hello World
+----------
+[Server 1]: Received valid message from 6: Mensagem through path 6 to 3
+----------
+[Server 5]: 5: Received broadcast message: Mensagem broadcaster from server 3
+----------
+[Broadcaster] Sending message to 127.0.0.1
+----------
+[Server 5]: Sent from Server 5 to server 1: 5-Hello World
+----------
+[Broadcaster] Sending message to 127.0.0.2
+----------
+[Server 3]: Received valid message from 4: Mensagem through path 4 to 3
+----------
+[Broadcaster] Sending message to 127.0.0.3
+----------
+[Server 1]: Sent from Server 1 to server 6: 1-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 5: 6-Hello World
+----------
+[Broadcaster] Sending message to 127.0.0.4
+----------
+[Server 1]: 1: Received broadcast message: Mensagem broadcaster from server 3
+----------
+[Server 6]: Received valid message from 5: Hello World
+----------
+[Server 5]: 5: Received broadcast message: Mensagem broadcaster from server 4
+----------
+[Server 4]: Sent from Server 4 to server 1: 4-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-Mensagem through path 1 to 3
+----------
+[Server 4]: 4: Received broadcast message: Mensagem broadcaster from server 2
+----------
+[Broadcaster] Sending message to 127.0.0.6
+----------
+[Server 1]: Message received from server 2: Hello World
+----------
+[Broadcaster] Message received from server 6: Mensagem broadcaster from server 6
+----------
+[Server 5]: Message received from server 6: Hello World
+----------
+[Server 1]: Received valid message from 2: Hello World
+----------
+[Server 3]: Received valid message from 2: Hello World
+----------
+[Server 6]: 6: Received broadcast message: Mensagem broadcaster from server 3
+----------
+[Broadcaster] Sending message to 127.0.0.1
+----------
+[Server 6]: Sent from Server 6 to server 1: 6-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 1: 1-Hello World
+----------
+[Server 2]: Message received from server 1: Mensagem through path 1 to 3
+----------
+[Server 4]: 4: Received broadcast message: Mensagem broadcaster from server 3
+----------
+[Broadcaster] Sending message to 127.0.0.2
+----------
+[Server 1]: Message received from server 3: Hello Worldadcaster from server 3
+----------
+[Server 6]: 6: Received broadcast message: Mensagem broadcaster from server 4
+----------
+[Server 2]: Received valid message from 1: Mensagem through path 1 to 3
+----------
+[Broadcaster] Sending message to 127.0.0.4
+----------
+[Server 5]: Received valid message from 6: Hello World
+----------
+[Broadcaster] Sending message to 127.0.0.5
+----------
+[Server 3]: Message reached destination: Mensagem through path 5 to 3
+----------
+[Server 6]: Message received from server 1: Hello World
+----------
+[Server 1]: Received message from unallowed sender id 3
+----------
+[Broadcaster] Sending message to 127.0.0.6
+----------
+[Server 4]: Message received from server 5: Hello World
+----------
+[Server 5]: 5: Received broadcast message: Mensagem broadcaster from server 5
+----------
+[Server 3]: Message received from server 4: Mensagem through path 5 to 3
+----------
+[Server 4]: Received valid message from 5: Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-Mensagem through path 6 to 3
+----------
+[Server 6]: Received valid message from 1: Hello World
+----------
+[Server 1]: Message received from server 2: Hello World
+----------
+[Server 5]: 5: Received broadcast message: Mensagem broadcaster from server 6
+----------
+[Server 3]: Received valid message from 4: Mensagem through path 5 to 3
+----------
+[Server 1]: Received valid message from 2: Hello World
+----------
+[Server 4]: 4: Received broadcast message: Mensagem broadcaster from server 4
+----------
+[Server 6]: 6: Received broadcast message: Mensagem broadcaster from server 5
+----------
+[Server 2]: Message received from server 1: Mensagem through path 6 to 3
+----------
+[Server 1]: Message received from server 6: Hello World
+----------
+[Server 4]: 4: Received broadcast message: Mensagem broadcaster from server 5
+----------
+[Server 6]: 6: Received broadcast message: Mensagem broadcaster from server 6
+----------
+[Server 3]: Message received from server 4: Hello World
+----------
+[Server 1]: Received valid message from 6: Hello Worldrough path 6 to 3
+----------
+[Server 3]: Received valid message from 4: Hello World
+----------
+[Server 4]: 4: Received broadcast message: Mensagem broadcaster from server 6
+----------
+[Server 1]: 1: Received broadcast message: Mensagem broadcaster from server 4
+----------
+[Server 2]: 2: Received broadcast message: Mensagem broadcaster from server 4
+----------
+[Server 3]: 3: Received broadcast message: Mensagem broadcaster from server 4
+----------
+[Server 1]: Message received from server 5: Hello World
+----------
+[Server 3]: Message reached destination: Mensagem through path 1 to 3
+----------
+[Server 1]: Received message from unallowed sender id 5
+----------
+[Server 2]: Message received from server 1: Hello World
+----------
+[Server 3]: Message received from server 2: Mensagem through path 1 to 3
+----------
+[Server 1]: Message received from server 4: Hello World
+----------
+[Server 3]: Received valid message from 2: Mensagem through path 1 to 3
+----------
+[Server 2]: Received valid message from 1: Hello World
+----------
+[Server 1]: Received message from unallowed sender id 4
+----------
+[Server 3]: 3: Received broadcast message: Mensagem broadcaster from server 5
+----------
+[Server 2]: 2: Received broadcast message: Mensagem broadcaster from server 5
+----------
+[Server 1]: 1: Received broadcast message: Mensagem broadcaster from server 5
+----------
+[Server 2]: 2: Received broadcast message: Mensagem broadcaster from server 6
+----------
+[Server 3]: 3: Received broadcast message: Mensagem broadcaster from server 6
+----------
+[Server 1]: Message received from server 6: Hello World
+----------
+[Server 3]: Message reached destination: Mensagem through path 6 to 3
+----------
+[Server 1]: Received valid message from 6: Hello World
+----------
+[Server 3]: Message received from server 2: Mensagem through path 6 to 3
+----------
+[Server 1]: Message received from server 1: Hello World
+----------
+[Server 3]: Received valid message from 2: Mensagem through path 6 to 3
+----------
+[Server 1]: Received message from unallowed sender id 1
+----------
+[Server 1]: 1: Received broadcast message: Mensagem broadcaster from server 6
