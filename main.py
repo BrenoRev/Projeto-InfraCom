@@ -8,6 +8,7 @@ from log_message import log_message
 
 broadcast_server = "127.0.0.7"
 
+
 class ServerPC:
     def __init__(self, server_id, all_server_addresses):
         self.server_id = server_id
@@ -22,6 +23,10 @@ class ServerPC:
             5: [6, 4],
             6: [1, 5]
         }
+
+        pcs_list = [1, 2, 3, 4, 5, 6]
+        pcs_list.remove(self.server_id)
+        self.pcsExceptMe = pcs_list
 
         self.graph = {
             "pc6": {"pc1": 1, "pc5": 2},
@@ -57,6 +62,7 @@ class ServerPC:
             sock.sendto(message.encode(), (target_address, 10311))
 
             log_message(f"Sent from Server {self.server_id} to server {target_server}: {message}", self.server_id)
+            sock.close()
 
     def define_message(self, message, target_server_id=None):
         message = f"{self.server_id}-{message}"
@@ -90,7 +96,9 @@ class ServerPC:
         return False
 
     def listen_for_messages(self):
+        print(f"Server {self.server_id} listening on {self.SERVER_ADDRESS[0]}:{self.SERVER_ADDRESS[1]}")
         with socket(AF_INET, SOCK_DGRAM) as sock:
+            sock.setsockopt(1, 2, 1)
             sock.bind(self.SERVER_ADDRESS)
             log_message(f"Server {self.server_id} listening on {self.SERVER_ADDRESS[0]}:{self.SERVER_ADDRESS[1]}",
                         self.server_id)
@@ -154,7 +162,7 @@ class ServerPC:
         else:
             log_message(f"Message reached destination: {message}", self.server_id)
 
-    def send_message_through_test(self, destiny, message):
+    def send_message_through(self, destiny, message):
         self.send_message_through_path(get_graph_path(self.server_id, destiny, self.relationships.items()), message)
 
     def send_broadcast_message(self, message):
@@ -163,27 +171,42 @@ class ServerPC:
         with socket(AF_INET, SOCK_DGRAM) as sock:
             sock.sendto(message.encode(), (broadcast_server, 10311))
             log_message(f"Sent to broadcaster: {message}", self.server_id)
+            sock.close()
 
-    ###
+    def start_pc_communication(self):
+        for pc in self.pcsExceptMe:
+            message = self.define_message(f"Hello World")
+            self.send_message_through(pc, message)
+        self.send_broadcast_message(f"Mensagem broadcaster from server {self.server_id}")
 
+    # Descomente para testar as funções que validam os envios e recebimento das mensagens
+    # Veja o arquivo de log para validar as mensagens  
     def run(self):
+        # Inicia os servidores por meio de threads
         threading.Thread(target=self.listen_for_messages).start()
 
+        # Aguardar um tempo para que todos os servidores estejam prontos
         time.sleep(1)
 
-        self.start_communication()
+        # Envia mensagens para os seus vizinhos
+        # self.start_communication()
 
-        # Descomente para testar as funções que validam os envios e recebimento das mensagens
-        # Veja o arquivo de log para validar
-
+        # Enviar mensagem de broadcaster do seu PC para os outros PCs
         # self.send_broadcast_message(f"Mensagem broadcaster from server {self.server_id}")
 
-        # if self.server_id == 1:
-            # self.send_message_through_test(5, "Mensagem hello world do 1 pro 5")
+        # Enviar mensagem do servidor "current_server" para o servidor "target_server"
+        # current_server = 1
+        # target_server = 5
+        # if self.server_id == current_server:
+        #      self.send_message_through(target_server, f"Mensagem hello world do {current_server} pro {target_server}")
 
-        # self.send_message_through_test(3, f"Mensagem through path {self.server_id} to 3")
-
+        # Caso de teste para tentar enviar mensagens para servidores que não são vizinhos sem passar pelo roteamento
         # self.start_wrong_communication()
+
+        # Os nós devem conversar entre si, trocando pelo menos 5 mensagens simultaneamente;
+        # ( O PC 1 envia mensagem para os demais pcs ... 2, 3, 4, 5, 6)
+        # Após o envio das mensagens ele envia 1 mensagem de broadcaster e todos devem responder
+        self.start_pc_communication()
 
 
 class Main:
