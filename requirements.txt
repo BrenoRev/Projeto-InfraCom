@@ -1,0 +1,6 @@
+cryptography== 3.4.7
+socket == 1.0.0
+heapq == 0.1.2
+json== 0.1.0
+threading== 0.1.0
+time == 0.1.0

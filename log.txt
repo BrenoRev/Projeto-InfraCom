@@ -7108,3 +7108,2029 @@
 [Server 1]: Received valid message from 2: 3-Hello World
 ----------
 [Server 2]: Received valid message from 3: 3-Hello World
+----------
+[Broadcaster] Server ('127.0.0.7', 10311) listening
+----------
+Servidor UDP iniciado.
+----------
+[Server 1]: [Dijsktra] Path from 1 to 2: [2]
+----------
+[Server 2]: [Dijsktra] Path from 2 to 1: [1]
+----------
+[Server 3]: [Dijsktra] Path from 3 to 1: [2, 1]
+----------
+[Server 5]: [Dijsktra] Path from 5 to 1: [6, 1]
+----------
+[Server 1]: Sent from Server 1 to server 2: [2]/1-1-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 1: [1]/2-2-Hello World
+----------
+[Server 2]: [Dijsktra] Path from 2 to 3: [3]
+----------
+[Server 1]: [Dijsktra] Path from 1 to 3: [2, 3]
+----------
+[Server 3]: Sent from Server 3 to server 2: [2, 1]/3-3-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 1: [3, 2, 1]
+----------
+[Server 5]: Sent from Server 5 to server 6: [6, 1]/5-5-Hello World
+----------
+[Server 3]: [Dijsktra] Path from 3 to 2: [2]
+----------
+[Server 5]: [Dijsktra] Path from 5 to 2: [6, 1, 2]/1-1-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-2-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 1: [1]
+----------
+[Server 2]: [Dijsktra] Path from 2 to 4: [3, 4]
+----------
+[Server 4]: Sent from Server 4 to server 3: [3, 2, 1]/4-4-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3, 4]/2-2-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 4: [2, 3, 4]
+----------
+[Server 2]: [Dijsktra] Path from 2 to 5: [3, 4, 5]
+----------
+[Server 6]: Sent from Server 6 to server 1: [1]/6-6-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 2: [3, 2]
+----------
+[Server 3]: Sent from Server 3 to server 2: [2]/3-3-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 6: [6, 1, 2]/5-5-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 2: [1, 2]
+----------
+[Server 2]: Sent from Server 2 to server 3: [3, 4, 5]/2-2-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2, 3, 4]/1-1-Hello World
+----------
+[Server 3]: [Dijsktra] Path from 3 to 4: [4]
+----------
+[Server 2]: [Dijsktra] Path from 2 to 6: [1, 6]
+----------
+[Server 4]: Sent from Server 4 to server 3: [3, 2]/4-4-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 5: [6, 5]
+----------
+[Server 5]: [Dijsktra] Path from 5 to 3: [4, 3]
+----------
+[Server 2]: Sent from Server 2 to server 1: [1, 6]/2-2-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2]/6-6-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 4: [4]/3-3-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 3: [3]
+----------
+[Broadcaster] Message received from server 2: Mensagem broadcaster from server 2
+----------
+[Server 2]: Sent to broadcaster: 2-Mensagem broadcaster from server 2
+----------
+[Server 1]: Sent from Server 1 to server 6: [6, 5]/1-1-Hello World
+----------
+[Broadcaster] Sending message to 127.0.0.1
+----------
+[Server 5]: Sent from Server 5 to server 4: [4, 3]/5-5-Hello World
+----------
+[Server 3]: [Dijsktra] Path from 3 to 5: [4, 5]
+----------
+[Server 1]: [Dijsktra] Path from 1 to 6: [6]
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2, 3]/6-6-Hello World
+----------
+[Broadcaster] Sending message to 127.0.0.2
+----------
+[Server 5]: [Dijsktra] Path from 5 to 4: [4]
+----------
+[Broadcaster] Sending message to 127.0.0.3: [3]/4-4-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 4: [5, 4]
+----------
+[Server 3]: Sent from Server 3 to server 4: [4, 5]/3-3-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6]/1-1-Hello World
+----------
+[Broadcaster] Sending message to 127.0.0.4
+----------
+[Server 4]: [Dijsktra] Path from 4 to 5: [5]
+----------
+[Server 3]: [Dijsktra] Path from 3 to 6: [2, 1, 6]
+----------
+[Server 6]: Sent from Server 6 to server 5: [5, 4]/6-6-Hello World
+----------
+[Server 1]: Sent to broadcaster: 1-Mensagem broadcaster from server 1
+----------
+[Server 6]: [Dijsktra] Path from 6 to 5: [5]
+----------
+[Broadcaster] Sending message to 127.0.0.6
+----------
+[Server 5]: Sent from Server 5 to server 4: [4]/5-5-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: [5]/4-4-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2, 1, 6]/3-3-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 6: [6]
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Server 6]: Sent from Server 6 to server 5: [5]/6-6-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 6: [5, 6]
+----------
+[Server 3]: Sent to broadcaster: 3-Mensagem broadcaster from server 3
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Server 4]: Sent from Server 4 to server 5: [5, 6]/4-4-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 6: [6]/5-5-Hello World
+----------
+[Server 6]: Sent to broadcaster: 6-Mensagem broadcaster from server 6
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Broadcaster] Message received from server 1: Mensagem broadcaster from server 1
+----------
+[Server 5]: Sent to broadcaster: 5-Mensagem broadcaster from server 5
+----------
+[Server 4]: Sent to broadcaster: 4-Mensagem broadcaster from server 4
+----------
+[Broadcaster] Sending message to 127.0.0.2
+----------
+[Broadcaster] Sending message to 127.0.0.3
+----------
+[Broadcaster] Sending message to 127.0.0.4
+----------
+[Broadcaster] Sending message to 127.0.0.5
+----------
+[Broadcaster] Sending message to 127.0.0.6
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Broadcaster] Message received from server 3: Mensagem broadcaster from server 3
+----------
+[Broadcaster] Sending message to 127.0.0.1
+----------
+[Broadcaster] Sending message to 127.0.0.2
+----------
+[Broadcaster] Sending message to 127.0.0.3
+----------
+[Broadcaster] Sending message to 127.0.0.4
+----------
+[Broadcaster] Sending message to 127.0.0.5
+----------
+[Broadcaster] Sending message to 127.0.0.6
+----------
+[Broadcaster] Message received from server 6: Mensagem broadcaster from server 6
+----------
+[Broadcaster] Sending message to 127.0.0.1
+----------
+[Broadcaster] Sending message to 127.0.0.2
+----------
+[Broadcaster] Sending message to 127.0.0.3
+----------
+[Broadcaster] Sending message to 127.0.0.4
+----------
+[Broadcaster] Sending message to 127.0.0.5
+----------
+[Broadcaster] Sending message to 127.0.0.6
+----------
+[Broadcaster] Message received from server 5: Mensagem broadcaster from server 5
+----------
+[Broadcaster] Sending message to 127.0.0.1
+----------
+[Broadcaster] Sending message to 127.0.0.2
+----------
+[Broadcaster] Sending message to 127.0.0.3
+----------
+[Broadcaster] Sending message to 127.0.0.4
+----------
+[Broadcaster] Sending message to 127.0.0.5
+----------
+[Broadcaster] Sending message to 127.0.0.6
+----------
+[Broadcaster] Message received from server 4: Mensagem broadcaster from server 4
+----------
+[Broadcaster] Sending message to 127.0.0.1
+----------
+[Broadcaster] Sending message to 127.0.0.2
+----------
+[Broadcaster] Sending message to 127.0.0.3
+----------
+[Broadcaster] Sending message to 127.0.0.4
+----------
+[Broadcaster] Sending message to 127.0.0.5
+----------
+[Broadcaster] Sending message to 127.0.0.6
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Servidor UDP iniciado.
+----------
+Servidor UDP iniciado.
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+Servidor UDP iniciado.
+----------
+Servidor UDP iniciado.
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Certificate_Authority] Error: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------
+[Server 1]: Server 1 listening on 127.0.0.1:10311
+----------
+[Server 2]: Server 2 listening on 127.0.0.2:10311
+----------
+[Server 3]: Server 3 listening on 127.0.0.3:10311
+----------
+[Server 4]: Server 4 listening on 127.0.0.4:10311
+----------
+[Server 5]: Server 5 listening on 127.0.0.5:10311
+----------
+[Server 6]: Server 6 listening on 127.0.0.6:10311
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Server 1]: Private key received: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B2927BD10>
+----------
+[Server 2]: Private key received: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B29C25990>
+----------
+[Server 1]: Message received from server PRIVATE_KEY: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B2927BD10>
+----------
+[Server 2]: Message received from server PRIVATE_KEY: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B29C25990>
+----------
+[Server 1]: Error: invalid literal for int() with base 10: 'PRIVATE_KEY'
+----------
+[Server 2]: Error: invalid literal for int() with base 10: 'PRIVATE_KEY'
+----------
+[Server 3]: Private key received: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B2927BD10>
+----------
+[Server 3]: Message received from server PRIVATE_KEY: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B2927BD10>
+----------
+[Server 4]: Private key received: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B29C25990>
+----------
+[Server 3]: Error: invalid literal for int() with base 10: 'PRIVATE_KEY'
+----------
+[Server 4]: Message received from server PRIVATE_KEY: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B29C25990>
+----------
+[Server 5]: Private key received: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B2927BD10>
+----------
+[Server 4]: Error: invalid literal for int() with base 10: 'PRIVATE_KEY'
+----------
+[Server 5]: Message received from server PRIVATE_KEY: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B2927BD10>
+----------
+[Server 6]: Private key received: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B29C25990>
+----------
+[Server 5]: Error: invalid literal for int() with base 10: 'PRIVATE_KEY'
+----------
+[Server 6]: Message received from server PRIVATE_KEY: <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000018B29C25990>
+----------
+[Server 6]: Error: invalid literal for int() with base 10: 'PRIVATE_KEY'
+----------
+[Server 2]: Server 2 listening on 127.0.0.2:10311
+----------
+[Server 1]: Server 1 listening on 127.0.0.1:10311
+----------
+[Server 3]: Server 3 listening on 127.0.0.3:10311
+----------
+[Server 4]: Server 4 listening on 127.0.0.4:10311
+----------
+[Server 5]: Server 5 listening on 127.0.0.5:10311
+----------
+[Server 6]: Server 6 listening on 127.0.0.6:10311
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.1
+----------
+[Server 1]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.2
+----------
+[Server 2]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.3
+----------
+[Server 3]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.4
+----------
+[Server 4]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.5
+----------
+[Server 5]: Private key received
+----------
+[Server 6]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.6
+----------
+[Server 2]: Server 2 listening on 127.0.0.2:10311
+----------
+[Server 3]: Server 3 listening on 127.0.0.3:10311
+----------
+[Server 5]: Server 5 listening on 127.0.0.5:10311
+----------
+[Server 1]: Server 1 listening on 127.0.0.1:10311
+----------
+[Server 4]: Server 4 listening on 127.0.0.4:10311
+----------
+[Server 6]: Server 6 listening on 127.0.0.6:10311
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.1
+----------
+[Server 1]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.2
+----------
+[Server 2]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.3
+----------
+[Server 3]: Private key received
+----------
+[Server 4]: Private key receivedivada enviada para 127.0.0.4
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.5
+----------
+[Server 5]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.6
+----------
+[Server 6]: Private key received
+----------
+[Server 1]: Server 1 listening on 127.0.0.1:10311
+----------
+[Server 2]: Server 2 listening on 127.0.0.2:10311
+----------
+[Server 4]: Server 4 listening on 127.0.0.4:10311
+----------
+[Server 3]: Server 3 listening on 127.0.0.3:10311
+----------
+[Server 5]: Server 5 listening on 127.0.0.5:10311
+----------
+[Server 6]: Server 6 listening on 127.0.0.6:10311
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Server 1]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.1
+----------
+[Server 2]: Private key receivedivada enviada para 127.0.0.2
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.3
+----------
+[Server 3]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.4
+----------
+[Server 4]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.5
+----------
+[Server 5]: Private key received
+----------
+[Server 6]: Private key receivedivada enviada para 127.0.0.6
+----------
+Chave privada setada <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x000001B8C421BD10> para o servidor 1
+----------
+Chave privada setada <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x000001B8C4925990> para o servidor 4
+----------
+Chave privada setada <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x000001B8C421BD10> para o servidor 3
+----------
+Chave privada setada <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x000001B8C4925990> para o servidor 6
+----------
+Chave privada setada <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x000001B8C421BD10> para o servidor 5
+----------
+[Server 3]: Server 3 listening on 127.0.0.3:10311
+----------
+[Server 2]: Server 2 listening on 127.0.0.2:10311
+----------
+[Server 1]: Server 1 listening on 127.0.0.1:10311
+----------
+[Server 5]: Server 5 listening on 127.0.0.5:10311
+----------
+[Server 6]: Server 6 listening on 127.0.0.6:10311
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.1
+----------
+[Server 1]: Private key received
+----------
+[Server 2]: Private key receivedivada enviada para 127.0.0.2
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.3
+----------
+[Server 3]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.4
+----------
+[Server 4]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.5
+----------
+[Server 5]: Private key received
+----------
+[Server 6]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.6
+----------
+Chave privada setada <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x000002124F8FBD10> para o servidor 1
+----------
+Chave privada setada <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000021250225990> para o servidor 2
+----------
+[Server 1]: [Dijsktra] Path from 1 to 2: [2]
+----------
+[Server 2]: [Dijsktra] Path from 2 to 1: [1]
+----------
+Chave privada setada <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x000002124F8FBD10> para o servidor 3
+----------
+Chave privada setada <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000021250225990> para o servidor 4
+----------
+[Server 3]: [Dijsktra] Path from 3 to 1: [2, 1]
+----------
+Chave privada setada <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x000002124F8FBD10> para o servidor 5
+----------
+[Server 1]: Message reached destination: 2-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 1: [3, 2, 1]
+----------
+[Server 2]: Sent from Server 2 to server 1: [1]/2-2-Hello World
+----------
+Chave privada setada <cryptography.hazmat.bindings._rust.openssl.ec.ECPrivateKey object at 0x0000021250225990> para o servidor 6
+----------
+[Server 1]: Message received from server 2: 2-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 1: [6, 1]
+----------
+[Server 2]: [Dijsktra] Path from 2 to 3: [3]
+----------
+[Server 1]: Received valid message from 2: 2-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2, 1]/3-3-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 1: [1]
+----------
+[Server 4]: Sent from Server 4 to server 3: [3, 2, 1]/4-4-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 1: [1]/2-3-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2, 1]/3-4-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-2-Hello World
+----------
+[Server 1]: Message reached destination: 3-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 1: [1]/6-5-Hello World
+----------
+[Server 2]: Message received from server 3: 3-Hello World
+----------
+[Server 3]: Message received from server 4: 4-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 2: [3, 2]
+----------
+[Server 1]: Message received from server 2: 3-Hello World
+----------
+[Server 2]: [Dijsktra] Path from 2 to 4: [3, 4]
+----------
+[Server 6]: Message received from server 5: 5-Hello World
+----------
+[Server 2]: Received valid message from 3: 3-Hello World
+----------
+[Server 3]: Received valid message from 4: 4-Hello World
+----------
+[Server 3]: [Dijsktra] Path from 3 to 2: [2]
+----------
+[Server 6]: Received valid message from 5: 5-Hello World
+----------
+[Server 2]: Message reached destination: 1-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2]/1-1-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 1: [1]/6-6-Hello World
+----------
+[Server 2]: Message received from server 1: 1-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 6: [6, 1]/5-5-Hello World
+----------
+[Server 1]: Received valid message from 2: 3-Hello World
+----------
+[Server 3]: Message reached destination: 2-Hello World
+----------
+[Server 2]: Received valid message from 1: 1-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 3: [2, 3] 4]/2-2-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 2: [1, 2]o World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2]/3-3-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 3: [3, 2]/4-4-Hello World
+----------
+[Server 1]: Message received from server 6: 5-Hello World
+----------
+[Server 2]: [Dijsktra] Path from 2 to 5: [3, 4, 5]
+----------
+[Server 2]: Sent from Server 2 to server 1: [1]/2-4-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 2: [6, 1, 2]
+----------
+[Server 3]: Message received from server 2: 2-Hello Worldllo World
+----------
+[Server 1]: Received valid message from 6: 5-Hello World
+----------
+[Server 2]: Message received from server 3: 4-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 4: [4]/3-3-Hello World
+----------
+[Server 1]: Message reached destination: 6-Hello World
+----------
+[Server 4]: Message reached destination: 3-Hello World
+----------
+[Server 3]: Received valid message from 2: 2-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 4: [2, 3, 4]
+----------
+[Server 2]: Received valid message from 3: 4-Hello World
+----------
+[Server 1]: Message received from server 6: 6-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2]/6-5-Hello World
+----------
+[Server 4]: Message received from server 3: 3-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2]/6-6-Hello World--
+[Server 2]: Message reached destination: 3-Hello World
+----------
+[Server 2]: Message received from server 3: 3-Hello World
+----------
+[Server 2]: Received valid message from 3: 3-Hello World
+----------
+[Server 6]: Message received from server 5: 5-Hello World
+----------
+[Server 1]: Received valid message from 6: 6-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 6: [6, 1, 2]/5-5-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3, 4, 5]/2-2-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 3: [3]/4-4-Hello World
+----------
+[Server 1]: Message reached destination: 4-Hello World
+----------
+[Server 6]: Received valid message from 5: 5-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-1-Hello World
+----------
+[Server 2]: Message received from server 1: 1-Hello World
+----------
+[Server 1]: Message received from server 2: 4-Hello World
+----------
+[Server 1]: Received valid message from 2: 4-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 3: [1, 2, 3]
+----------
+[Server 2]: Received valid message from 1: 1-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 3: [4, 3]
+----------
+[Server 1]: Sent from Server 1 to server 2: [2]/1-6-Hello World
+----------
+[Server 3]: [Dijsktra] Path from 3 to 5: [4, 5]
+----------
+[Server 1]: Message received from server 6: 6-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2, 3]/6-6-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 5: [5]
+----------
+[Server 2]: Sent from Server 2 to server 3: [3, 4]/2-1-Hello World
+----------
+[Server 2]: [Dijsktra] Path from 2 to 6: [1, 6]
+----------
+[Server 4]: Sent from Server 4 to server 3: [3]/4-5-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2, 3, 4]/1-1-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 4: [4, 3]/5-5-Hello World
+----------
+[Server 1]: Received valid message from 6: 6-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 4: [5, 4]
+----------
+[Server 4]: Message received from server 5: 5-Hello World
+----------
+[Server 5]: Message reached destination: 4-Hello World
+----------
+[Server 4]: Received valid message from 5: 5-Hello Worldello World
+----------
+[Server 2]: Message received from server 1: 1-Hello World
+----------
+[Server 4]: Message reached destination: 2-Hello World
+----------
+[Server 5]: Message received from server 4: 4-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 5: [5, 4]/6-6-Hello World
+----------
+[Server 3]: Message received from server 2: 2-Hello World
+----------
+[Server 4]: Message received from server 3: 2-Hello World
+----------
+[Server 2]: Received valid message from 1: 1-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 4: [4]
+----------
+[Server 3]: Sent from Server 3 to server 4: [4, 5]/3-3-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 5: [5]
+----------
+[Server 1]: [Dijsktra] Path from 1 to 5: [6, 5]/5-6-Hello Worldrver 2
+----------
+[Server 2]: Message reached destination: 6-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2]/1-5-Hello World
+----------
+[Server 3]: [Dijsktra] Path from 3 to 6: [2, 1, 6]
+----------
+[Server 3]: Received valid message from 2: 2-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: [5]/4-4-Hello World
+----------
+[Server 1]: Message received from server 6: 5-Hello World
+----------
+[Server 5]: Message received from server 6: 6-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 6: [5, 6]
+----------
+[Server 4]: Received valid message from 3: 2-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 4: [4]/5-5-Hello World
+----------
+[Server 5]: Received valid message from 6: 6-Hello World
+----------
+[Server 2]: Message received from server 1: 6-Hello World
+----------
+[Server 1]: Received valid message from 6: 5-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2]/3-4-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6, 5]/1-1-Hello Worldrld
+----------
+[Server 5]: [Dijsktra] Path from 5 to 6: [6][5]/6-1-Hello World
+----------
+[Server 2]: Received valid message from 1: 6-Hello World
+----------
+[Server 5]: Message reached destination: 6-Hello World
+----------
+[Server 3]: Message received from server 4: 4-Hello World
+----------
+[Server 6]: Message received from server 1: 1-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 5: [5]/6-6-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 6: [6]
+----------
+[Server 5]: Message received from server 6: 6-Hello World
+----------
+[Server 2]: Message reached destination: 5-Hello World
+----------
+[Server 6]: Received valid message from 1: 1-Hello World
+----------
+[Server 5]: Received valid message from 6: 6-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: [5, 6]/4-4-Hello World
+----------
+[Server 3]: Received valid message from 4: 4-Hello World
+----------
+[Server 2]: Message received from server 1: 5-Hello World
+----------
+[Server 5]: Message reached destination: 1-Hello World
+----------
+[Server 6]: Message reached destination: 5-Hello World
+----------
+[Server 5]: Message received from server 6: 1-Hello World
+----------
+[Server 3]: Sent to broadcaster: 3-Mensagem broadcaster from server 3
+----------
+[Server 4]: Sent from Server 4 to server 5: [5]/4-3-Hello World
+----------
+[Server 4]: Sent to broadcaster: 4-Mensagem broadcaster from server 4
+----------
+[Server 6]: Message received from server 5: 5-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2, 3]/1-6-Hello World
+----------
+[Server 6]: Sent to broadcaster: 6-Mensagem broadcaster from server 6
+----------
+[Server 5]: Sent from Server 5 to server 6: [6]/5-5-Hello World
+----------
+[Server 2]: Received valid message from 1: 5-Hello World
+----------
+[Server 5]: Received valid message from 6: 1-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 4: [4, 5]/3-2-Hello World
+----------
+[Server 6]: Received valid message from 5: 5-Hello World
+----------
+[Server 6]: Message reached destination: 1-Hello World
+----------
+[Server 4]: Message received from server 3: 3-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6]/1-1-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 1: [1, 6]/2-3-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 6: [6]/5-4-Hello World
+----------
+[Server 5]: Message received from server 4: 4-Hello World
+----------
+[Server 3]: Message received from server 2: 2-Hello World
+----------
+[Server 2]: Message received from server 3: 3-Hello World
+----------
+[Server 6]: Message received from server 1: 1-Hello World
+----------
+[Server 5]: Sent to broadcaster: 5-Mensagem broadcaster from server 5
+----------
+[Server 5]: Message reached destination: 3-Hello Worldld
+----------
+[Server 2]: Received valid message from 3: 3-Hello World
+----------
+[Server 6]: Message reached destination: 4-Hello World
+----------
+[Server 5]: Message received from server 4: 3-Hello World
+----------
+[Server 2]: Message reached destination: 4-Hello World
+----------
+[Server 6]: Message received from server 5: 4-Hello World
+----------
+[Server 4]: Received valid message from 3: 3-Hello World
+----------
+[Server 1]: Sent to broadcaster: 1-Mensagem broadcaster from server 1
+----------
+[Server 3]: Received valid message from 2: 2-Hello World
+----------
+[Server 5]: Received valid message from 4: 3-Hello World
+----------
+[Server 1]: Message received from server 6: 6-Hello World
+----------
+[Server 2]: Message received from server 3: 4-Hello World
+----------
+[Server 4]: Message reached destination: 6-Hello World
+----------
+[Server 2]: Received valid message from 3: 4-Hello World
+----------
+[Server 3]: Message reached destination: 4-Hello World
+----------
+[Server 4]: Message received from server 5: 6-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-6-Hello World
+----------
+[Server 2]: Message received from server 1: 6-Hello World
+----------
+[Server 2]: Received valid message from 1: 6-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6]/1-2-Hello World
+----------
+[Server 6]: Message reached destination: 2-Hello World
+----------
+[Server 3]: Message received from server 4: 4-Hello World
+----------
+[Server 4]: Received valid message from 5: 6-Hello Worldd
+----------
+[Server 3]: Received valid message from 4: 4-Hello World
+----------
+[Server 6]: Received valid message from 1: 2-Hello World
+----------
+[Server 1]: Message received from server 2: 2-Hello World
+----------
+[Server 3]: Message reached destination: 1-Hello World
+----------
+[Server 1]: Received valid message from 2: 2-Hello World
+----------
+[Server 3]: Message received from server 2: 1-Hello World
+----------
+[Server 4]: Message received from server 5: 5-Hello World
+----------
+[Server 6]: Message reached destination: 3-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6]/1-3-Hello World
+----------
+[Server 3]: Received valid message from 2: 1-Hello World
+----------
+[Server 4]: Received valid message from 5: 5-Hello World
+----------
+[Server 6]: Message received from server 1: 3-Hello World
+----------
+[Server 1]: Message received from server 2: 3-Hello World
+----------
+[Server 1]: Received valid message from 2: 3-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 4: [4]/3-1-Hello World
+----------
+[Server 5]: Message reached destination: 2-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: [5]/4-2-Hello World
+----------
+[Server 6]: Received valid message from 1: 3-Hello World
+----------
+[Server 5]: Message received from server 4: 2-Hello World
+----------
+[Server 5]: Received valid message from 4: 2-Hello World
+----------
+[Server 4]: Message received from server 3: 2-Hello World
+----------
+[Server 3]: Message received from server 2: 1-Hello World
+----------
+[Server 3]: Received valid message from 2: 1-Hello World
+----------
+[Server 4]: Message reached destination: 1-Hello World
+----------
+[Server 3]: Message reached destination: 5-Hello World
+----------
+[Server 4]: Message received from server 3: 1-Hello World
+----------
+[Server 3]: Message received from server 4: 5-Hello World
+----------
+[Server 4]: Received valid message from 3: 1-Hello World
+----------
+[Server 3]: Received valid message from 4: 5-Hello World
+----------
+[Server 3]: Message reached destination: 6-Hello World
+----------
+[Server 3]: Message received from server 2: 6-Hello World
+----------
+[Server 3]: Received valid message from 2: 6-Hello World
+----------
+[Server 1]: Server 1 listening on 127.0.0.1:10311
+----------
+[Server 3]: Server 3 listening on 127.0.0.3:10311
+----------
+[Server 2]: Server 2 listening on 127.0.0.2:10311
+----------
+[Server 4]: Server 4 listening on 127.0.0.4:10311
+----------
+[Server 5]: Server 5 listening on 127.0.0.5:10311
+----------
+[Server 6]: Server 6 listening on 127.0.0.6:10311
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Server 1]: Server 1 listening on 127.0.0.1:10311
+----------
+[Server 2]: Server 2 listening on 127.0.0.2:10311
+----------
+[Server 5]: Server 5 listening on 127.0.0.5:10311
+----------
+[Server 3]: Server 3 listening on 127.0.0.3:10311
+----------
+[Server 6]: Server 6 listening on 127.0.0.6:10311
+----------
+[Server 4]: Server 4 listening on 127.0.0.4:10311
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.1
+----------
+[Server 1]: Error: initialization_vector must be bytes-like
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.2
+----------
+[Server 2]: Error: initialization_vector must be bytes-like
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.3
+----------
+[Server 3]: Error: initialization_vector must be bytes-like
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.4
+----------
+[Server 4]: Error: initialization_vector must be bytes-like
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.5
+----------
+[Server 5]: Error: initialization_vector must be bytes-like
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.6
+----------
+[Server 6]: Error: initialization_vector must be bytes-like
+----------
+[Certificate_Authority] Chaves privadas enviadas para todos os servidores.
+----------
+[Certificate_Authority] public keys: {'127.0.0.1': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x00000288CEC92EB0>, '127.0.0.2': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x00000288CE9258D0>, '127.0.0.3': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x00000288CE926BD0>, '127.0.0.4': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x00000288CE926690>, '127.0.0.5': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x00000288CE926B90>, '127.0.0.6': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x00000288CEDE6590>}
+----------
+[Server 1]: Server 1 listening on 127.0.0.1:10311
+----------
+[Server 2]: Server 2 listening on 127.0.0.2:10311
+----------
+[Server 3]: Server 3 listening on 127.0.0.3:10311
+----------
+[Server 6]: Server 6 listening on 127.0.0.6:10311
+----------
+[Server 5]: Server 5 listening on 127.0.0.5:10311
+----------
+[Server 4]: Server 4 listening on 127.0.0.4:10311
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.1
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.2
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.3
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.4
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.5
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.6
+----------
+[Certificate_Authority] Chaves privadas enviadas para todos os servidores.
+----------
+[Certificate_Authority] public keys: {'127.0.0.1': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x0000027C11722EB0>, '127.0.0.2': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x0000027C116258D0>, '127.0.0.3': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x0000027C11626BD0>, '127.0.0.4': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x0000027C11626690>, '127.0.0.5': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x0000027C11626B90>, '127.0.0.6': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x0000027C11AE6590>}
+----------
+[Server 3]: Error: 'tuple' object has no attribute 'encode'
+----------
+[Server 2]: Error: 'tuple' object has no attribute 'encode'
+----------
+[Server 4]: Error: 'tuple' object has no attribute 'encode'
+----------
+[Server 6]: Error: 'tuple' object has no attribute 'encode'
+----------
+[Server 1]: Error: 'tuple' object has no attribute 'encode'
+----------
+[Server 5]: Error: 'tuple' object has no attribute 'encode'
+----------
+[Server 1]: Server 1 listening on 127.0.0.1:10311
+----------
+[Server 2]: Server 2 listening on 127.0.0.2:10311
+----------
+[Server 3]: Server 3 listening on 127.0.0.3:10311
+----------
+[Server 4]: Server 4 listening on 127.0.0.4:10311
+----------
+[Server 5]: Server 5 listening on 127.0.0.5:10311
+----------
+[Server 6]: Server 6 listening on 127.0.0.6:10311
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.1
+----------
+[Server 1]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.2
+----------
+[Server 2]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.3
+----------
+[Server 3]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.4
+----------
+[Server 4]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.5
+----------
+[Server 5]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.6
+----------
+[Server 6]: Private key received
+----------
+[Certificate_Authority] Chaves privadas enviadas para todos os servidores.
+----------
+[Certificate_Authority] public keys: {'127.0.0.1': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001BD0A752EB0>, '127.0.0.2': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001BD0A6258D0>, '127.0.0.3': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001BD0A626BD0>, '127.0.0.4': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001BD0A626690>, '127.0.0.5': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001BD0A626B90>, '127.0.0.6': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001BD0AAE6590>}
+----------
+[Server 1]: Chave privada setada para o servidor
+----------
+[Server 2]: Chave privada setada para o servidor
+----------
+[Server 1]: [Dijsktra] Path from 1 to 2: [2]
+----------
+[Server 3]: Chave privada setada para o servidor
+----------
+[Server 2]: [Dijsktra] Path from 2 to 1: [1]
+----------
+[Server 5]: Chave privada setada para o servidor
+----------
+[Server 3]: [Dijsktra] Path from 3 to 1: [2, 1]
+----------
+[Server 2]: Message reached destination: 1-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 1: [6, 1]
+----------
+[Server 1]: Sent from Server 1 to server 2: [2]/1-1-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 1: [1]/2-2-Hello World
+----------
+[Server 2]: Message received from server 1: 1-Hello World
+----------
+[Server 6]: Chave privada setada para o servidor
+----------
+[Server 1]: Message reached destination: 2-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2, 1]/3-3-Hello World
+----------
+[Server 4]: Chave privada setada para o servidor
+----------
+[Server 1]: Message received from server 2: 2-Hello World
+----------
+[Server 2]: Received valid message from 1: 1-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 3: [2, 3]
+----------
+[Server 6]: [Dijsktra] Path from 6 to 1: [1]
+----------
+[Server 2]: [Dijsktra] Path from 2 to 3: [3]
+----------
+[Server 5]: Sent from Server 5 to server 6: [6, 1]/5-5-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 1: [1]/6-5-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 1: [3, 2, 1]
+----------
+[Server 3]: [Dijsktra] Path from 3 to 2: [2]
+----------
+[Server 1]: Received valid message from 2: 2-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 1: [1]/2-3-Hello World
+----------
+[Server 6]: Message received from server 5: 5-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2, 3]/1-1-Hello World
+----------
+[Server 6]: Received valid message from 5: 5-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-2-Hello World---
+[Server 2]: Message received from server 3: 3-Hello World
+----------
+[Server 3]: Message reached destination: 2-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 2: [6, 1, 2]
+----------
+[Server 1]: Message received from server 6: 5-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2]/3-3-Hello World
+----------
+[Server 2]: [Dijsktra] Path from 2 to 4: [3, 4]
+----------
+[Server 6]: Sent from Server 6 to server 1: [1]/6-6-Hello World
+----------
+[Server 3]: Message received from server 2: 2-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 3: [3, 2, 1]/4-4-Hello World
+----------
+[Server 2]: Received valid message from 3: 3-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-1-Hello World
+----------
+[Server 3]: [Dijsktra] Path from 3 to 4: [4]
+----------
+[Server 3]: Received valid message from 2: 2-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 2: [3, 2]
+----------
+[Server 6]: [Dijsktra] Path from 6 to 2: [1, 2]
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2]/6-5-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 4: [2, 3, 4]
+----------
+[Server 5]: Sent from Server 5 to server 6: [6, 1, 2]/5-5-Hello World
+----------
+[Server 2]: Message received from server 1: 1-Hello World
+----------
+[Server 6]: Message received from server 5: 5-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 3: [3, 2]/4-4-Hello World
+----------
+[Server 4]: Message reached destination: 3-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2]/6-6-Hello World
+----------
+[Server 2]: Received valid message from 1: 1-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3, 4]/2-2-Hello World
+----------
+[Server 1]: Received valid message from 6: 5-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 3: [4, 3]
+----------
+[Server 3]: Sent from Server 3 to server 4: [4]/3-3-Hello World
+----------
+[Server 6]: Received valid message from 5: 5-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2, 1]/3-4-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2, 3, 4]/1-1-Hello World
+----------
+[Server 4]: Message received from server 3: 3-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 3: [3]
+----------
+[Server 2]: Message reached destination: 3-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 3: [1, 2, 3]
+----------
+[Server 1]: Message reached destination: 3-Hello World
+----------
+[Server 3]: Message received from server 4: 4-Hello World
+----------
+[Server 3]: [Dijsktra] Path from 3 to 5: [4, 5]llo World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 5: [6, 5]
+----------
+[Server 5]: Sent from Server 5 to server 4: [4, 3]/5-5-Hello World
+----------
+[Server 2]: Message received from server 3: 3-Hello World
+----------
+[Server 3]: Received valid message from 4: 4-Hello World
+----------
+[Server 1]: Message received from server 2: 3-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 4: [4]
+----------
+[Server 4]: Sent from Server 4 to server 3: [3]/4-4-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2, 3]/6-6-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 3: [3]/4-5-Hello World
+----------
+[Server 3]: Message reached destination: 1-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 5: [5]
+----------
+[Server 6]: Sent from Server 6 to server 5: [5]/6-1-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 4: [5, 4]
+----------
+[Server 3]: Message received from server 2: 1-Hello World
+----------
+[Server 4]: Message received from server 5: 5-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3, 4, 5]/2-2-Hello World
+----------
+[Server 2]: Received valid message from 3: 3-Hello World
+----------
+[Server 6]: Message received from server 1: 1-Hello World
+----------
+[Server 5]: Message reached destination: 1-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 4: [4]/5-5-Hello World
+----------
+[Server 3]: Received valid message from 2: 1-Hello World
+----------
+[Server 4]: Received valid message from 5: 5-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 5: [5, 4]/6-6-Hello World
+----------
+[Server 2]: [Dijsktra] Path from 2 to 6: [1, 6]
+----------
+[Server 3]: [Dijsktra] Path from 3 to 6: [2, 1, 6]
+----------
+[Server 5]: Message received from server 6: 1-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 6: [6]
+----------
+[Server 6]: Received valid message from 1: 1-Hello World
+----------
+[Server 1]: Message reached destination: 6-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 5: [5]
+----------
+[Server 5]: Received valid message from 6: 1-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6, 5]/1-1-Hello World
+----------
+[Server 1]: Message received from server 6: 6-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: [5]/4-3-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2, 1, 6]/3-3-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3, 4]/2-1-Hello World
+----------
+[Server 1]: Received valid message from 6: 6-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 1: [1, 6]/2-2-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 6: [6]
+----------
+[Server 4]: Sent from Server 4 to server 5: [5]/4-4-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 4: [4]/3-2-Hello World
+----------
+[Server 3]: Sent to broadcaster: 3-Mensagem broadcaster from server 3
+----------
+[Server 4]: Message received from server 3: 3-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 4: [4]/5-6-Hello World
+----------
+[Server 2]: Message received from server 1: 1-Hello World
+----------
+[Server 2]: Sent to broadcaster: 2-Mensagem broadcaster from server 2
+----------
+[Server 6]: Sent from Server 6 to server 5: [5]/6-6-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 6: [5, 6]
+----------
+[Server 3]: Message received from server 2: 2-Hello World
+----------
+[Server 5]: Message received from server 6: 6-Hello World
+----------
+[Server 2]: Received valid message from 1: 1-Hello World
+----------
+[Server 6]: Message reached destination: 5-Hello World
+----------
+[Server 4]: Received valid message from 3: 3-Hello World
+----------
+[Server 5]: Received valid message from 6: 6-Hello World
+----------
+[Server 6]: Message received from server 5: 5-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 6: [6]/5-5-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2]/1-5-Hello World
+----------
+[Server 5]: Message reached destination: 4-Hello World
+----------
+[Server 6]: Received valid message from 5: 5-Hello World
+----------
+[Server 6]: Sent to broadcaster: 6-Mensagem broadcaster from server 6
+----------
+[Server 1]: Message received from server 6: 5-Hello World
+----------
+[Server 5]: Sent to broadcaster: 5-Mensagem broadcaster from server 5
+----------
+[Server 6]: Message reached destination: 1-Hello World
+----------
+[Server 5]: Message received from server 4: 4-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 1: [1]/2-4-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: [5, 6]/4-4-Hello World
+----------
+[Server 6]: Message received from server 1: 1-Hello World
+----------
+[Server 4]: Message reached destination: 5-Hello World
+----------
+[Server 2]: Message received from server 3: 4-Hello World
+----------
+[Server 5]: Received valid message from 4: 4-Hello World
+----------
+[Server 6]: Received valid message from 1: 1-Hello World
+----------
+[Server 5]: Message reached destination: 3-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2]/3-4-Hello World
+----------
+[Server 2]: Received valid message from 3: 4-Hello Worldd
+----------
+[Server 5]: Message received from server 4: 3-Hello World
+----------
+[Server 3]: Message received from server 4: 4-Hello World
+----------
+[Server 4]: Sent to broadcaster: 4-Mensagem broadcaster from server 4
+----------
+[Server 1]: Sent from Server 1 to server 2: [2]/1-6-Hello World
+----------
+[Server 5]: Received valid message from 4: 3-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6]/1-1-Hello World
+----------
+[Server 4]: Received valid message from 5: 5-Hello World
+----------
+[Server 5]: Message reached destination: 6-Hello World
+----------
+[Server 1]: Message received from server 6: 6-Hello World
+----------
+[Server 3]: Received valid message from 4: 4-Hello World
+----------
+[Server 1]: Sent to broadcaster: 1-Mensagem broadcaster from server 1
+----------
+[Server 1]: Received valid message from 6: 6-Hello Worldd
+----------
+[Server 4]: Message reached destination: 2-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 1: [1, 6]/2-3-Hello World
+----------
+[Server 5]: Received valid message from 6: 6-Hello World
+----------
+[Server 3]: Message reached destination: 4-Hello World
+----------
+[Server 4]: Message received from server 3: 2-Hello World
+----------
+[Server 3]: Message received from server 4: 4-Hello World
+----------
+[Server 2]: Message received from server 3: 3-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2, 3]/1-6-Hello World
+----------
+[Server 4]: Received valid message from 3: 2-Hello World
+----------
+[Server 3]: Received valid message from 4: 4-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 6: [6]/5-4-Hello World
+----------
+[Server 6]: Message reached destination: 4-Hello World
+----------
+[Server 1]: Message received from server 6: 6-Hello World
+----------
+[Server 2]: Received valid message from 3: 3-Hello World
+----------
+[Server 6]: Message received from server 5: 4-Hello World
+----------
+[Server 3]: Message reached destination: 5-Hello World
+----------
+[Server 5]: Message received from server 4: 4-Hello World
+----------
+[Server 6]: Received valid message from 5: 4-Hello World
+----------
+[Server 1]: Received valid message from 6: 6-Hello World
+----------
+[Server 2]: Message reached destination: 5-Hello World
+----------
+[Server 4]: Message reached destination: 6-Hello World
+----------
+[Server 3]: Message received from server 4: 5-Hello World
+----------
+[Server 5]: Received valid message from 4: 4-Hello World
+----------
+[Server 2]: Message received from server 1: 5-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6]/1-2-Hello World
+----------
+[Server 6]: Message reached destination: 2-Hello World
+----------
+[Server 6]: Message received from server 1: 2-Hello World
+----------
+[Server 3]: Received valid message from 4: 5-Hello World
+----------
+[Server 4]: Message received from server 5: 6-Hello World
+----------
+[Server 2]: Received valid message from 1: 5-Hello World
+----------
+[Server 1]: Message received from server 2: 2-Hello World
+----------
+[Server 4]: Received valid message from 5: 6-Hello World
+----------
+[Server 6]: Received valid message from 1: 2-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 4: [4, 5]/3-2-Hello World
+----------
+[Server 1]: Received valid message from 2: 2-Hello World
+----------
+[Server 2]: Message reached destination: 4-Hello World
+----------
+[Server 3]: Message received from server 2: 2-Hello World
+----------
+[Server 1]: Message reached destination: 4-Hello World
+----------
+[Server 2]: Message received from server 3: 4-Hello World
+----------
+[Server 5]: Message reached destination: 2-Hello World
+----------
+[Server 3]: Received valid message from 2: 2-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: [5]/4-2-Hello World
+----------
+[Server 1]: Message received from server 2: 4-Hello World
+----------
+[Server 5]: Message received from server 4: 2-Hello World
+----------
+[Server 2]: Received valid message from 3: 4-Hello World
+----------
+[Server 4]: Message received from server 3: 2-Hello World
+----------
+[Server 5]: Received valid message from 4: 2-Hello Worldo World
+----------
+[Server 1]: Received valid message from 2: 4-Hello World
+----------
+[Server 3]: Message received from server 2: 1-Hello World
+----------
+[Server 3]: Received valid message from 2: 1-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6]/1-3-Hello World
+----------
+[Server 6]: Message reached destination: 3-Hello World
+----------
+[Server 2]: Message reached destination: 6-Hello World
+----------
+[Server 6]: Message received from server 1: 3-Hello World
+----------
+[Server 1]: Message received from server 2: 3-Hello World
+----------
+[Server 6]: Received valid message from 1: 3-Hello World
+----------
+[Server 1]: Received valid message from 2: 3-Hello World
+----------
+[Server 4]: Received valid message from 3: 2-Hello World
+----------
+[Server 2]: Message received from server 1: 6-Hello World
+----------
+[Server 4]: Message reached destination: 1-Hello World
+----------
+[Server 2]: Received valid message from 1: 6-Hello World
+----------
+[Server 4]: Message received from server 3: 1-Hello World
+----------
+[Server 4]: Received valid message from 3: 1-Hello World
+----------
+[Server 3]: Message reached destination: 6-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-6-Hello World
+----------
+[Server 3]: Message received from server 2: 6-Hello World
+----------
+[Server 2]: Message received from server 1: 6-Hello World
+----------
+[Server 3]: Received valid message from 2: 6-Hello World
+----------
+[Server 2]: Received valid message from 1: 6-Hello World
+----------
+[Server 1]: Server 1 listening on 127.0.0.1:10311
+----------
+[Server 2]: Server 2 listening on 127.0.0.2:10311
+----------
+[Server 3]: Server 3 listening on 127.0.0.3:10311
+----------
+[Server 4]: Server 4 listening on 127.0.0.4:10311
+----------
+[Server 6]: Server 6 listening on 127.0.0.6:10311
+----------
+[Server 5]: Server 5 listening on 127.0.0.5:10311
+----------
+[Certificate_Authority] Servidor UDP iniciado.
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.1
+----------
+[Server 1]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.2
+----------
+[Server 2]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.3
+----------
+[Server 3]: Private key received
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.4
+----------
+[Server 4]: Private key received
+----------
+[Server 5]: Private key receivedivada enviada para 127.0.0.5
+----------
+[Certificate_Authority] Chave privada enviada para 127.0.0.6
+----------
+[Server 6]: Private key received
+----------
+[Certificate_Authority] Chaves privadas enviadas para todos os servidores.
+----------
+[Certificate_Authority] public keys: {'127.0.0.1': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001EE9B422EB0>, '127.0.0.2': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001EE9B3258D0>, '127.0.0.3': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001EE9B326BD0>, '127.0.0.4': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001EE9B326690>, '127.0.0.5': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001EE9B326B90>, '127.0.0.6': <cryptography.hazmat.bindings._rust.openssl.ec.ECPublicKey object at 0x000001EE9B576590>}
+----------
+[Server 1]: Chave privada setada para o servidor
+----------
+[Server 2]: Chave privada setada para o servidor
+----------
+[Server 3]: Chave privada setada para o servidor
+----------
+[Server 4]: Chave privada setada para o servidor
+----------
+[Server 1]: [Dijsktra] Path from 1 to 2: [2]
+----------
+[Server 2]: [Dijsktra] Path from 2 to 1: [1]
+----------
+[Server 3]: [Dijsktra] Path from 3 to 1: [2, 1]
+----------
+[Server 4]: [Dijsktra] Path from 4 to 1: [3, 2, 1]
+----------
+[Server 6]: Chave privada setada para o servidor
+----------
+[Server 2]: Message reached destination: 1-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 1: [1]/2-2-Hello World
+----------
+[Server 5]: Chave privada setada para o servidor
+----------
+[Server 1]: Sent from Server 1 to server 2: [2]/1-1-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 3: [3, 2, 1]/4-4-Hello World
+----------
+[Server 2]: Message received from server 1: 1-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2, 1]/3-3-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 1: [1]
+----------
+[Server 1]: Message reached destination: 2-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2, 1]/3-4-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 3: [2, 3]
+----------
+[Server 2]: Received valid message from 1: 1-Hello World
+----------
+[Server 3]: [Dijsktra] Path from 3 to 2: [2]
+----------
+[Server 2]: [Dijsktra] Path from 2 to 3: [3]
+----------
+[Server 5]: [Dijsktra] Path from 5 to 1: [6, 1]
+----------
+[Server 4]: [Dijsktra] Path from 4 to 2: [3, 2]
+----------
+[Server 3]: Message received from server 4: 4-Hello World
+----------
+[Server 1]: Message received from server 2: 2-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 1: [1]/2-3-Hello World
+----------
+[Server 1]: Received valid message from 2: 2-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2]/3-3-Hello World
+----------
+[Server 3]: Received valid message from 4: 4-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 6: [6, 1]/5-5-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2, 3]/1-1-Hello World
+----------
+[Server 2]: Message received from server 3: 3-Hello World
+----------
+[Server 3]: [Dijsktra] Path from 3 to 4: [4]
+----------
+[Server 4]: Sent from Server 4 to server 3: [3, 2]/4-4-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 2: [6, 1, 2]
+----------
+[Server 6]: Sent from Server 6 to server 1: [1]/6-5-Hello World
+----------
+[Server 2]: Received valid message from 3: 3-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 4: [2, 3, 4]
+----------
+[Server 6]: Sent from Server 6 to server 1: [1]/6-6-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-2-Hello World
+----------
+[Server 1]: Message reached destination: 3-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 3: [3]
+----------
+[Server 4]: Message reached destination: 3-Hello World
+----------
+[Server 6]: Message received from server 5: 5-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 2: [2]/3-4-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 4: [4]/3-3-Hello World
+----------
+[Server 2]: [Dijsktra] Path from 2 to 4: [3, 4]
+----------
+[Server 3]: Message received from server 4: 4-Hello World World
+----------
+[Server 1]: Message received from server 2: 3-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 6: [6, 1, 2]/5-5-Hello World
+----------
+[Server 3]: Received valid message from 4: 4-Hello World
+----------
+[Server 4]: Message received from server 3: 3-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 3: [3]/4-4-Hello World
+----------
+[Server 2]: Message received from server 3: 4-Hello World
+----------
+[Server 6]: Received valid message from 5: 5-Hello World
+----------
+[Server 3]: [Dijsktra] Path from 3 to 5: [4, 5]
+----------
+[Server 1]: Sent from Server 1 to server 2: [2, 3, 4]/1-1-Hello World
+----------
+[Server 1]: Received valid message from 2: 3-Hello World
+----------
+[Server 3]: Message reached destination: 2-Hello World
+----------
+[Server 2]: Received valid message from 3: 4-Hello World
+----------
+[Server 4]: Received valid message from 3: 3-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 5: [5]
+----------
+[Server 2]: Message reached destination: 3-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 5: [6, 5]
+----------
+[Server 1]: Message reached destination: 5-Hello World
+----------
+[Server 3]: Message received from server 2: 2-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2]/6-6-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 3: [4, 3]
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2]/6-5-Hello World
+----------
+[Server 3]: Received valid message from 2: 2-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: [5]/4-3-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: [5]/4-4-Hello World
+----------
+[Server 2]: Message received from server 3: 3-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3, 4]/2-2-Hello World
+----------
+[Server 6]: [Dijsktra] Path from 6 to 3: [1, 2, 3]
+----------
+[Server 3]: Sent from Server 3 to server 4: [4, 5]/3-3-Hello World
+----------
+[Server 5]: Message reached destination: 3-Hello World
+----------
+[Server 1]: Message received from server 6: 5-Hello World
+----------
+[Server 6]: Message received from server 5: 5-Hello World
+----------
+[Server 2]: Received valid message from 3: 3-Hello World
+----------
+[Server 4]: [Dijsktra] Path from 4 to 6: [5, 6]
+----------
+[Server 3]: [Dijsktra] Path from 3 to 6: [2, 1, 6]
+----------
+[Server 5]: Message received from server 4: 3-Hello World
+----------
+[Server 2]: [Dijsktra] Path from 2 to 5: [3, 4, 5] World
+----------
+[Server 3]: Message reached destination: 4-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 1: [1, 2, 3]/6-6-Hello World
+----------
+[Server 4]: Message received from server 3: 3-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-1-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 4: [4, 3]/5-5-Hello World
+----------
+[Server 5]: Received valid message from 4: 3-Hello World
+----------
+[Server 3]: Message received from server 4: 4-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6, 5]/1-1-Hello World
+----------
+[Server 6]: Received valid message from 5: 5-Hello World3-Hello World
+----------
+[Server 1]: Message reached destination: 6-Hello World
+----------
+[Server 2]: Message received from server 1: 1-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 5: [5]/6-1-Hello World
+----------
+[Server 5]: Message reached destination: 4-Hello World
+----------
+[Server 3]: Received valid message from 4: 4-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3, 4, 5]/2-2-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: [5, 6]/4-4-Hello World
+----------
+[Server 2]: Received valid message from 1: 1-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 4: [4]
+----------
+[Server 6]: [Dijsktra] Path from 6 to 4: [5, 4]
+----------
+[Server 1]: Message received from server 6: 6-Hello World
+----------
+[Server 2]: Message reached destination: 4-Hello World
+----------
+[Server 1]: [Dijsktra] Path from 1 to 6: [6]1-Hello World
+----------
+[Server 3]: Sent to broadcaster: 3-Mensagem broadcaster from server 3
+----------
+[Server 5]: Message received from server 4: 4-Hello World
+----------
+[Server 2]: Message received from server 3: 4-Hello World
+----------
+[Server 6]: Received valid message from 1: 1-Hello World
+----------
+[Server 1]: Received valid message from 6: 6-Hello World
+----------
+[Server 2]: [Dijsktra] Path from 2 to 6: [1, 6]
+----------
+[Server 5]: Received valid message from 4: 4-Hello World
+----------
+[Server 4]: Sent to broadcaster: 4-Mensagem broadcaster from server 4
+----------
+[Server 4]: Received valid message from 3: 3-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 4: [4]/3-2-Hello World
+----------
+[Server 2]: Received valid message from 3: 4-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 4: [4]/5-5-Hello World
+----------
+[Server 6]: Message reached destination: 1-Hello World
+----------
+[Server 1]: Message reached destination: 4-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 1: [1, 6]/2-2-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 6: [6]/5-4-Hello World
+----------
+[Server 6]: Message received from server 1: 1-Hello World
+----------
+[Server 6]: Received valid message from 1: 1-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6]/1-1-Hello World
+----------
+[Server 2]: Sent to broadcaster: 2-Mensagem broadcaster from server 2
+----------
+[Server 5]: Message received from server 4: 4-Hello World
+----------
+[Server 6]: Message reached destination: 4-Hello World
+----------
+[Server 3]: Received valid message from 2: 2-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 5: [5, 4]/6-6-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3, 4]/2-1-Hello World
+----------
+[Server 6]: Message received from server 5: 4-Hello World
+----------
+[Server 5]: Received valid message from 4: 4-Hello World
+----------
+[Server 1]: Message received from server 2: 4-Hello World
+----------
+[Server 2]: Message received from server 1: 1-Hello World
+----------
+[Server 3]: Message reached destination: 1-Hello World
+----------
+[Server 6]: Received valid message from 5: 4-Hello World
+----------
+[Server 1]: Received valid message from 2: 4-Hello World
+----------
+[Server 5]: [Dijsktra] Path from 5 to 6: [6]
+----------
+[Server 5]: Message reached destination: 1-Hello Worldr from server 1
+----------
+[Server 6]: [Dijsktra] Path from 6 to 5: [5]
+----------
+[Server 4]: Sent from Server 4 to server 3: [3]/4-5-Hello World
+----------
+[Server 5]: Message received from server 6: 1-Hello World
+----------
+[Server 3]: Message received from server 2: 1-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2]/1-6-Hello World
+----------
+[Server 4]: Message received from server 5: 5-Hello World
+----------
+[Server 6]: Message reached destination: 5-Hello World
+----------
+[Server 6]: Sent from Server 6 to server 5: [5]/6-6-Hello World
+----------
+[Server 1]: Message received from server 6: 6-Hello World
+----------
+[Server 5]: Received valid message from 6: 1-Hello World
+----------
+[Server 6]: Message received from server 5: 5-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 6: [6]/5-5-Hello World
+----------
+[Server 4]: Received valid message from 5: 5-Hello World
+----------
+[Server 6]: Sent to broadcaster: 6-Mensagem broadcaster from server 6
+----------
+[Server 1]: Received valid message from 6: 6-Hello World
+----------
+[Server 6]: Received valid message from 5: 5-Hello Worldello World
+----------
+[Server 4]: Message reached destination: 2-Hello World
+----------
+[Server 5]: Sent from Server 5 to server 4: [4]/5-6-Hello World
+----------
+[Server 3]: Received valid message from 2: 1-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2]/1-5-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 4: [4, 5]/3-2-Hello Worldr 5
+----------
+[Server 4]: Message received from server 3: 2-Hello World
+----------
+[Server 1]: Message received from server 6: 5-Hello World
+----------
+[Server 2]: Received valid message from 3: 3-Hello World
+----------
+[Server 4]: Received valid message from 3: 2-Hello World
+----------
+[Server 3]: Message received from server 2: 2-Hello World
+----------
+[Server 1]: Received valid message from 6: 5-Hello World
+----------
+[Server 5]: Received valid message from 6: 6-Hello World
+----------
+[Server 2]: Message reached destination: 6-Hello World
+----------
+[Server 4]: Message reached destination: 5-Hello World
+----------
+[Server 3]: Received valid message from 2: 2-Hello World
+----------
+[Server 2]: Message received from server 1: 6-Hello World
+----------
+[Server 4]: Message received from server 5: 5-Hello World
+----------
+[Server 5]: Message reached destination: 6-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 2: [2, 3]/1-6-Hello World
+----------
+[Server 2]: Received valid message from 1: 6-Hello World
+----------
+[Server 4]: Received valid message from 5: 5-Hello Worldd
+----------
+[Server 1]: Message received from server 6: 6-Hello World
+----------
+[Server 3]: Sent from Server 3 to server 4: [4]/3-1-Hello World
+----------
+[Server 5]: Received valid message from 6: 6-Hello World
+----------
+[Server 4]: Message reached destination: 6-Hello World
+----------
+[Server 2]: Message reached destination: 5-Hello World
+----------
+[Server 1]: Received valid message from 6: 6-Hello World
+----------
+[Server 3]: Message received from server 2: 1-Hello World
+----------
+[Server 2]: Message received from server 1: 5-Hello World
+----------
+[Server 4]: Message received from server 5: 6-Hello World
+----------
+[Server 3]: Received valid message from 2: 1-Hello World
+----------
+[Server 2]: Received valid message from 1: 5-Hello World
+----------
+[Server 4]: Received valid message from 5: 6-Hello World
+----------
+[Server 1]: Sent from Server 1 to server 6: [6]/1-2-Hello World
+----------
+[Server 3]: Message reached destination: 5-Hello World
+----------
+[Server 6]: Message reached destination: 2-Hello World
+----------
+[Server 5]: Message reached destination: 2-Hello Worldrld
+----------
+[Server 1]: Message received from server 2: 2-Hello World
+----------
+[Server 3]: Message received from server 4: 5-Hello World
+----------
+[Server 2]: Sent from Server 2 to server 3: [3]/2-6-Hello World
+----------
+[Server 6]: Received valid message from 1: 2-Hello World
+----------
+[Server 4]: Sent from Server 4 to server 5: [5]/4-2-Hello World
+----------
+[Server 5]: Message received from server 4: 2-Hello World
+----------
+[Server 3]: Received valid message from 4: 5-Hello World
+----------
+[Server 2]: Message received from server 1: 6-Hello World
+----------
+[Server 1]: Received valid message from 2: 2-Hello World
+----------
+[Server 4]: Message received from server 3: 2-Hello World
+----------
+[Server 3]: Message reached destination: 6-Hello World
+----------
+[Server 2]: Received valid message from 1: 6-Hello World
+----------
+[Server 4]: Received valid message from 3: 2-Hello World
+----------
+[Server 6]: Message reached destination: 3-Hello Worldrld
+----------
+[Server 1]: Sent from Server 1 to server 6: [6]/1-3-Hello World
+----------
+[Server 4]: Message reached destination: 1-Hello World
+----------
+[Server 6]: Message received from server 1: 3-Hello World
+----------
+[Server 1]: Message received from server 2: 3-Hello World
+----------
+[Server 3]: Received valid message from 2: 6-Hello World
+----------
+[Server 6]: Received valid message from 1: 3-Hello World
+----------
+[Server 4]: Message received from server 3: 1-Hello World
+----------
+[Server 4]: Received valid message from 3: 1-Hello World
+----------
+[Server 1]: Received valid message from 2: 3-Hello World

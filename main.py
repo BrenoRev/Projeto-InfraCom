@@ -7,13 +7,18 @@ from dijkstra import dijkstra, get_graph_path
 from log_message import log_message
 
 broadcast_server = "127.0.0.7"
-
+certify_server = "127.0.0.8"
 
 class ServerPC:
     def __init__(self, server_id, all_server_addresses):
         self.server_id = server_id
 
-        self.SERVER_ADDRESS = (f'127.0.0.{self.server_id}', 10311)
+
+        # Configurações do servidor
+        HOST = f"127.0.0.{self.server_id}"  # Endereço IP do servidor
+        PORT = 10311        # Porta do servidor
+
+        self.SERVER_ADDRESS = (HOST, PORT)
 
         self.relationships = {
             1: [2, 6],
@@ -24,6 +29,8 @@ class ServerPC:
             6: [1, 5]
         }
 
+        self.private_key = None
+        
         pcs_list = [1, 2, 3, 4, 5, 6]
         pcs_list.remove(self.server_id)
         self.pcsExceptMe = pcs_list
@@ -75,6 +82,16 @@ class ServerPC:
         path_sender, message = decoded_message.split("-", 1)
         log_message(f"{self.server_id}: Received broadcast message: {message}", self.server_id)
 
+    def validate_message_private_key(self, message):
+        if "PRIVATE_KEY-" in message:
+            return True
+        return False
+    
+    def validate_message_from_certificate_authority(self, message):
+        if "certificate_authority-" in message:
+            return True
+        return False
+    
     def validate_message_from_broadcaster(self, message):
         if "broadcaster-" in message:
             return True
@@ -98,7 +115,6 @@ class ServerPC:
     def listen_for_messages(self):
         print(f"Server {self.server_id} listening on {self.SERVER_ADDRESS[0]}:{self.SERVER_ADDRESS[1]}")
         with socket(AF_INET, SOCK_DGRAM) as sock:
-            sock.setsockopt(1, 2, 1)
             sock.bind(self.SERVER_ADDRESS)
             log_message(f"Server {self.server_id} listening on {self.SERVER_ADDRESS[0]}:{self.SERVER_ADDRESS[1]}",
                         self.server_id)
@@ -108,6 +124,12 @@ class ServerPC:
                     message, address = sock.recvfrom(1024)
                     decoded_message = message.decode()
 
+                    if self.validate_message_private_key(decoded_message):
+                        private_key = decoded_message.split("-")[1]
+                        self.private_key = private_key
+                        log_message(f"Private key received", self.server_id)
+                        continue
+                           
                     if self.validate_message_from_broadcaster(decoded_message):
                         self.treat_message_from_broadcaster(decoded_message)
                         continue
@@ -188,6 +210,12 @@ class ServerPC:
         # Aguardar um tempo para que todos os servidores estejam prontos
         time.sleep(1)
 
+        while self.private_key == None:
+            time.sleep(5)
+            print(f"Aguardando a criação da chave privada {self.SERVER_ADDRESS}...")
+            
+        log_message("Chave privada setada para o servidor", self.server_id)
+    
         # Envia mensagens para os seus vizinhos
         # self.start_communication()
 
