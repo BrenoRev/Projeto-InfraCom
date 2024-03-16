@@ -39,10 +39,10 @@ def verificarAssinatura(server):
         # Verificar a assinatura
         try:
             public_key.verify(signature, message, ec.ECDSA(hashes.SHA256()))
-            print(f"Assinatura válida para o par de chaves {pair_id}.")
+            print(f"Assinatura válida")
             return "OK"
         except:
-            print(f"Assinatura inválida para o par de chaves {pair_id}.")
+            print(f"Assinatura inválida")
             return "NOK"
     else:
         print("Este PC não existe.")
