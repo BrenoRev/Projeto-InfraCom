@@ -46,7 +46,9 @@ def verificarAssinatura(numeroPC):
 
 
 while True:
-    verificarAssinatura(6)
+    verificarAssinatura(8)
+    print(key_pairs)
+
 
     # Recebe os dados do cliente e o endereço do cliente
     data, addr = udp_socket.recvfrom(1024)
