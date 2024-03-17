@@ -215,7 +215,10 @@ class ServerPC:
             print(f"Aguardando a criação da chave privada {self.SERVER_ADDRESS}...")
             
         log_message("Chave privada setada para o servidor", self.server_id)
-    
+
+        # Tempo de espera entre todas as chaves privadas dos servidores estarem setadas
+        time.sleep(2)
+
         # Envia mensagens para os seus vizinhos
         # self.start_communication()
 
