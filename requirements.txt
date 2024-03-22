@@ -1,4 +1,4 @@
-cryptography== 3.4.7
+cryptography== 42.0.3
 socket == 1.0.0
 heapq == 0.1.2
 json== 0.1.0
