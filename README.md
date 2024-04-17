@@ -1,7 +1,10 @@
-### Relatório
+### Sobre
 
-https://docs.google.com/document/d/1yekcxQ0b8WgE1hpqy5p02x7kAVRhAbdJEVnZEmHqISc/edit?usp=sharing
+[Descrição do projeto](https://docs.google.com/document/d/1iQzg-XgjGhXc0kS5K55MEYTc49dtKAfd2NUvQ6UgyBE/edit?usp=sharing)
 
+[Relatório](https://docs.google.com/document/d/1GLGYV3qvB-EYZXF9Jmfv50l0UKK6qs_F7HAPR_Tu1KY/edit?usp=sharing)
+
+<hr>
 
 Para rodar o projeto com sucesso, é necessário executar uma série de comandos essenciais. Inicialmente, é fundamental instalar as dependências do projeto utilizando o comando "pip install -r requirements.txt", garantindo que todas as bibliotecas necessárias estejam disponíveis. Em seguida, para iniciar a execução do sistema, os arquivos "broadcaster.py", "main.py" e "certificate_authority.py" devem ser executados utilizando o interpretador Python, respectivamente. O arquivo "broadcaster.py" é responsável por gerenciar o servidor de broadcast, enquanto "main.py" é o ponto de entrada principal da aplicação, e "certificate_authority.py" implementa a funcionalidade da Autoridade Certificadora para garantir a segurança da comunicação entre os servidores. Esses comandos são cruciais para o funcionamento adequado do projeto, garantindo uma implementação bem-sucedida das etapas de topologia, comunicação, segurança e roteamento dentro da rede de servidores.
 
